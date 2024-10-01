@@ -1,0 +1,58 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.heading {
+  color: #fff;
+  margin: 0;
+}
+
+.navbar-fdiv {
+  display: flex;
+  /* align-items: center; */
+}
+
+.navbar-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list-item {
+  margin-left: 20px;
+}
+
+
+.navbar-list-item a,button {
+  border: white solid 1px;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-list-item a:hover {
+  color: #ddd;
+}
+
+/* For aligning Signup/Login to the right */
+.navbar > div:last-child {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.navbar-list-item:last-child a {
+  
+}

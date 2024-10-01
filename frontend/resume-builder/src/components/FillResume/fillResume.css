@@ -1,0 +1,28 @@
+.section{
+    display:flex;
+    height:100vh;
+}
+
+.left-section{
+    flex:1;
+
+}
+
+.right-section{
+    flex:2;
+}
+
+.download-div{
+    text-align:center;
+    margin: 5px;
+}
+
+#download-btn{
+
+    background-color: rgb(82, 82, 230);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
